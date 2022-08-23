@@ -1,0 +1,69 @@
+body {
+    margin: 20px;
+    font-family: karla, sans-serif;
+    background-color: #f5f7fb;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/blobs.png), url(./images/blobs1.png);
+    background-position: right top, left bottom;
+    background-size: 40vh 40vh;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#container {
+    margin: auto;
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #293264;
+    max-width: 700px;
+}
+
+.FirstPage {
+    align-items: center;
+}
+
+button {
+    margin: 20px;
+    padding: 9px 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4d5b9e;
+    color: #f5f7fb;
+    align-self: center;
+}
+
+span {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+    border: solid 1px #4d5b9e;
+    border-radius: 15px;
+}
+
+.chosen_answer {
+    border: none;
+    background-color: #d6dbf5;
+}
+
+.incorrect_answer {
+    border: none;
+    background-color: #f8bcbc;
+}
+
+.correct_answer {
+    border: none;
+    background-color: #94d7a2;
+}
+
+hr {
+    border: solid 1px #dbdef0;
+}
+h3 {
+    margin: 10px;
+}
