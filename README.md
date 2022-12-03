@@ -1,3 +1,3 @@
 # Quizzical
 
-live site at https://app.netlify.com/sites/ade-dhoney-quizzical
+live site at https://ade-dhoney-quizzical.netlify.app/
